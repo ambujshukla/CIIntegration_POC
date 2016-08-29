@@ -6,7 +6,7 @@
 \pard\pardeftab720\sl360\partightenfactor0
 
 \f0\fs26 \cf2 \cb3 \expnd0\expndtw0\kerning0
-stages:\
+\outl0\strokewidth0 \strokec2 stages:\
   - build\
 \
 build_project:\
@@ -15,4 +15,5 @@ build_project:\
     - xcodebuild clean -project CI_Integration_POC.xcodeproj -scheme SchemeName | xcpretty\
     - xcodebuild test -project CI_Integration_POC.xcodeproj -scheme SchemeName -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.3\'92 | xcpretty -s\
   tags:\
-    - ios}
+    - iOS\
+}
